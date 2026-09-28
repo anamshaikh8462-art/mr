@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+   <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a18ce1100e.js" crossorigin="anonymous"></script>
+    
+</head>
+<style>
+    .clrb{
+    color: black;
+}
+.clrb2{background-color: rgb(245, 253, 255);}
+.clrw{color: white;}
+.w46{width: 46%;}
+.w50{width: 50%;}
+.w30{width: 30%;}
+.w80{width: 80%;}
+.w90{width: 90%;}
+.ml10{margin-left: 10px;}
+.ml30{margin-left: 30px;}
+.ml50{margin-left: 50px;}
+.fs20{font-size: 20px;}
+.fs50{font-size: 50px;}
+.fs65{font-size: 65px;}
+.w-100{width: 100%;}
+.h300{height: 300px;}
+.h900{height: 900px;}
+.mx-auto{margin: auto}
+
+.mt50{margin-top: 50px;}
+.w70{width: 70%;}
+.btn1{
+    border: none;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 50%;
+    border-radius:15px;
+    margin-top: 20px;
+}
+.btn2{
+    border-radius: 15px;
+   height: 65px;
+   width: 65px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: white;
+    
+}
+.btn3{
+    border-radius: 20px;
+    height: 50px;
+    width: 30%;
+    border: 1px solid black;
+    background-color: white;   
+}
+    .btn4{
+    border-radius: 20px;
+    height: 60px;
+    width: 40%;
+     border: 1px solid white;
+     background-color: black; 
+     color: rgb(245, 253, 255);
+    
+    }  
+.bgct1{
+    background-color: black;
+}
+.bgct2{
+  background-color: rgb(245, 253, 255);
+}
+
+.resource-box{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 30px;
+ }
+.mydiv{
+    width: 12.5%;
+    text-align: center;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.b{
+    font-weight: 600;
+    font-size: 26px;
+}
+.viewall{
+    font-size: 16px;
+    cursor: pointer;
+}
+.borderbox{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 30px;
+    
+}
+.box{
+    border-radius: 12px;
+    box-shadow: 10px 10px;   
+}
+  .c:hover {
+      color: #f92f57;
+
+      cursor: pointer;
+    }
+    .c-title1 {
+      transition: 1s;
+    }
+    .div2 {
+      transition: 1s;
+    }
+    .div2:hover {
+      box-shadow: 10px 10px 0px 0px #241f33;
+      cursor: pointer;
+    }
+    
+    .d:hover{ background-color: #f92f57;
+  }
+  .d:hover{transition: 1s;}
+  .e:hover{
+    color:#f92f57; 
+  }
+ @media (max-width:976px){
+    .w100{width:80%;}
+    .w50{width: 49%;}
+    .w46{width: 42%;}
+    .ml50{width: 45%;}
+    .w30{width: 31%;}
+    .ml30{margin-left:0px;}
+    .h900{height: auto;} 
+    .mydiv{
+        width: 25%;
+    }
+    
+}
+@media (max-width: 576px) {
+    .fs65 {
+        font-size: 60px;
+    } 
+    .mydiv{
+
+        width: 50%;
+    }
+    .w50,
+    .w46
+    { width: 100%;}
+     .w30{width: 30%;} 
+    
+    .ml30{margin-left: 10px;}
+    .ml50 {margin-left: 0px}
+    .btn1 {width: 100%;}
+    .h900{height: 1500px;}
+}
+</style>
+<body>
+    <div class="w-100 clrb2 h900">
+    <nav class="navbar navbar-expand-md navbar-dark">
+  <div class="container-md ps-md-5 pe-md-5 pb-4  ">
+    
+    <a class="navbar-brand" href="home.html">
+        <img src="img/site-logo-1.svg" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon bg-black"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="mynavbar">
+      <ul class="navbar-nav  me-auto">
+        <li class="nav-item ms-2 ">
+          <a class=" e nav-link clrb " href="home.html">
+            Home</a>
+        </li>
+        <li class="nav-item ms-2">
+          <a class=" e nav-link clrb" href="resources.html">Resources</a>
+        </li>
+        <li class="nav-item ms-2">
+          <a class=" e nav-link clrb" href="premium.html">Premium</a>
+        </li>
+
+        <li class="nav-item ms-2">
+          <a class=" e nav-link clrb" href="about.html">About</a>
+        </li>
+
+        <li class="nav-item ms-2">
+          <a class=" e nav-link clrb" href="contact.html">Contact</a>
+        </li>
+      </ul>
+       <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link text-black" href="javascript:void(0)"><i class="fa-solid fa-user"></i></a>
+        </li>
+      <!-- <li class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link text-black" href="javascript:void(0)"><i class="fa-solid fa-user"></i></a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link text-black" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+         <div class="w80 mx-auto mt50">
+             <div class="d-flex justify-content-center m-0">
+        <div class="col-md-6"> 
+        <h1 class="fs65">High Quality</h1>
+        <h1 class="fs65">Design Resources</h1>
+        <h1 class="fs65">by Mark Ray</h1>
+        <p class=" mt50">
+        <span class="fs50"><i class="fa-brands fa-figma"></i></span>
+            <span>Figma</span>
+            <span class="fs50"><i class="fa-solid fa-camera"></i></span>
+            <span>Photoshop</span>
+            <p>Handcrafted free and premium Figma and Photoshop design resources for your next digital product projects</p>
+        </p>
+        <button class="btn1 d">
+            Browse Everything
+        </button>
+        <div class="w-100 mt50 d-flex justify-content-between">
+        <div>
+            <h1>2M+</h1>
+            <p>Total Downloads  </p>
+        </div>
+        <div>
+            <h1>150+</h1>
+            <p>Total Downloads  </p>
+        </div>
+        <div>
+            <h1>4.9</h1>
+            <p>Total Downloads  </p>
+        </div>
+        </div>
+        </div>
+        <div class="w46 ml50">
+            <img src="img/design-resources-hero-image.jpg" class="box">
+        </div>
+        </div>
+        </div> 
+     </div>
+     <div class="container mt50">
+        <div class="mt50 d-flex flex-wrap justify-content-center fs20">
+         <div class="mydiv">
+             <button class="btn2">
+                <i aria-hidden="true" class="fas fa-mobile-alt"></i>           
+            </button>
+            <p>Apps</p>
+         </div>
+         <div class="mydiv">
+             <button class="btn2">
+                 <i aria-hidden="true" class="fas fa-pager"></i>	        
+            </button>
+            <p>Dashboard</p>
+         </div>
+         <div class="mydiv">
+             <button class="btn2">
+				<i aria-hidden="true" class="fas fa-pager"></i>			
+			          
+            </button>
+            <p>Landing Pages</p>
+         </div>
+         <div class="mydiv">
+             <button class="btn2">
+               <i aria-hidden="true" class="fas fa-swatchbook"></i>                
+            </button>
+            <p>UI Kits</p>
+         </div>
+         <div class="mydiv">
+             <button class="btn2">
+              <i aria-hidden="true" class="fas fa-pen-nib"></i>	             
+            </button>
+            <p>Illustrations</p>
+         </div>
+         <div class="mydiv">
+             <button class="btn2">
+              <i aria-hidden="true" class="fas fa-tablet-alt"></i>            
+            </button>
+            <p>Mockups</p>
+         </div>
+         <div class="mydiv">
+             <button class="btn2">
+             <i aria-hidden="true" class="fas fa-icons"></i>	           
+            </button>
+            <p>Icons</p>
+         </div>
+         <div class="mydiv">
+             <button class="btn2">
+              <i aria-hidden="true" class="fas fa-layer-group"></i>	            
+            </button>
+            <p>Templates</p>
+         </div>
+</div>
+</div>
+        <div class="w90 mx-auto mt50">
+            <h2>Latest Resources</h2>
+                  <div class="row">
+                <div class="w30 ml30">
+                    <img src="img/downloadable-design-resource-image-1-380x264.jpg" alt=""
+                    class="w-100">
+                    <h5 class="text-center c ">Multi-Purpose eCommerce Template</h5>
+                    <h5 class="text-center">$29.00</h5>
+                </div>
+                <div class="w30 ml30">
+                    <img src="img/downloadable-design-resource-image-21-380x264.jpg"
+                     alt="" class="w-100" >
+                       <h5 class="text-center c">Beauty Product Packaging Mockup</h5>
+                    <h5 class="text-center">$9.00</h5>
+                </div>
+                <div class="w30">
+                    <img src="img/downloadable-design-resource-image-19-380x264.jpg" 
+                    alt="" class="w-100">
+                    <h5 class="text-center c">Daily Food App UI</h5>
+                    <h5 class="text-center">$14.00</h5>
+                </div>
+                <div class="w30 ml30 ">
+                    <img src="img/downloadable-design-resource-image-23-380x264.jpg" alt=""
+                    class="w-100">
+                    <h5 class="text-center c">A3 Poster Frame Mockup</h5>
+                    <h5 class="text-center">$0.00</h5>
+                </div>
+                <div class="w30 ml30  ">
+                    <img src="img/downloadable-design-resource-image-2-380x264.jpg"
+                     alt="" class="w-100 ">
+                       <h5 class="text-center c">Wonderful Portfolio Landing Page</h5>
+                    <h5 class="text-center">$24.00</h5>
+                </div>
+                <div class="w30  ">
+                    <img src="img/downloadable-design-resource-image-22-380x264.jpg" 
+                    alt="" class="w-100">
+                    <h5 class="text-center c">Blue Social Media Icons Set</h5>
+                    <h5 class="text-center">$9.00</h5>
+                </div>
+                  <div class="w30 ml30">
+                    <img src="img/downloadable-design-resource-image-4-380x264.jpg" alt=""
+                    class="w-100">
+                    <h5 class="text-center c">Ultimate Web Banner Template</h5>
+                    <h5 class="text-center">$19.00</h5>
+                </div>
+                <div class="w30 ml30">
+                    <img src="img/downloadable-design-resource-image-7-380x264.jpg"
+                     alt="" class="w-100">
+                       <h5 class="text-center c">Deem Analytics Dashboard UI</h5>
+                    <h5 class="text-center">$39.00</h5>
+                </div>
+                <div class="w30">
+                    <img src="img/downloadable-design-resource-image-24-380x264.jpg" 
+                    alt="" class="w-100">
+                    <h5 class="text-center c">Messaging Mobile App UI</h5>
+                    <h5 class="text-center">$29.00</h5>
+                </div>
+            </div>
+            </div>
+            <div class="container text-center mt50">
+               <button class="btn3">View All Resources</button>
+            </div>
+       <!-- <div class="col-md-11 mx-auto mt50" 
+       style="background-color: red;height: 500px;">
+       <div class="row">
+       <div class="col-md-5 ml30 ">
+        <p class="fs65"><i class="fa-brands fa-figma" ></i></p>
+        <h2 class="mt50">Figma resources</h2>
+       100+ design files
+        <div><i class="fa-solid fa-arrow-right-long"></i></div>
+       </div>
+        <div class="col-md-5 ml30">
+         <p class="fs65"><i class="fa-solid fa-camera"></i></p>
+         <h2 class="mt50">Photoshop resources</h2>
+         100+ design files
+         <div><i class="fa-solid fa-arrow-right-long"></i></div>
+
+       </div>
+       </div>
+  </div> -->
+  <div class="container pb-5 mt50">
+      <div class="row g-4">
+        <div class="col-lg-6 col-md-6">
+          <div class="resource-box div2">
+            <h4 class="ff1">
+              <i class="fa-brands fa-figma me-2 div2"></i>
+              <p class="mt-lg-5">Figma resources</p>
+            </h4>
+            <div class="ff2 d-flex justify-content-between">
+              100+ design files
+              <div><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+          <div class="resource-box div2">
+            <h4 class="ff1">
+              <i class="fa-solid fa-camera"></i>
+              <p class="mt-lg-5">Photoshop resources</p>
+            </h4>
+            <div class="ff2 d-flex justify-content-between">
+              100+ design files
+              <div><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-5">
+        <div class="a">
+            <h2 class="b">Templates</h2>
+            <span class="View all">View all</span>
+             </div>
+                <div class="container ">
+                  <div class="row gap-4">
+                      <div class="w30 ml30">
+                    <img src="img/downloadable-design-resource-image-1-380x264 (1).jpg" alt=""
+                    class="w-100">
+                    <h5 class="text-center c">Multi-Purpose eCommerce Template</h5>
+                    <h5 class="text-center">$29.00</h5>
+                </div>
+                <div class="w30 ml30">
+                    <img src="img/downloadable-design-resource-image-4-380x264 (1).jpg"
+                     alt="" class="w-100" >
+                       <h5 class="text-center c">Ultimate Web Banner Template</h5>
+                    <h5 class="text-center">$19.00</h5>
+                </div>
+                <div class="w30">
+                    <img src="img/downloadable-design-resource-image-25-380x264.jpg" 
+                    alt="" class="w-100">
+                    <h5 class="text-center c">a4 Ultra Minimal Headletter</h5>
+                    <h5 class="text-center">$0.00</h5>
+                </div>
+                </div>
+             </div>
+    </div>
+     <div class="container py-5">
+        <div class="a">
+            <h2 class="b">Mockups</h2>
+            <span class="View all">View all</span>
+             </div>
+                <div class="container ">
+                <div class="row gap-4">
+                     <div class="w30 ml30">
+                    <img src="img/downloadable-design-resource-image-21-380x264 (1).jpg" alt=""
+                    class="w-100">
+                    <h5 class="text-center c">Beauty Product Packaging Mockup</h5>
+                    <h5 class="text-center">$9.00</h5>
+                </div>
+                <div class="w30 ml30">
+                    <img src="img/downloadable-design-resource-image-23-380x264 (1).jpg"
+                     alt="" class="w-100" >
+                       <h5 class="text-center c">A3 Poster Frame Mockup</h5>
+                    <h5 class="text-center">$0.00</h5>
+                </div>
+                <div class="w30">
+                    <img src="img/downloadable-design-resource-image-15-380x264.jpg" 
+                    alt="" class="w-100">
+                    <h5 class="text-center c">Resealable packaging Mockup</h5>
+                    <h5 class="text-center">$0.00</h5>
+                </div>
+                </div>
+             </div>
+    </div>
+    <div class="container-fluid bgct1">
+        <div class="row">
+            <div class="col-md-6  align-content-lg-center  clrw" >
+            <h1>Premium Design</h1>
+            <h1>Resources</h1>
+            <p>Vitae metus, porta convallis enim rhoncus, proin sit<br>
+            praesent augue nec libero habitant bibendum.</p>
+             <button class="btn4">
+            Browse Premium Files
+        </button>
+            </div>
+            <div class=" col-lg-6 col-md-6 col-sm-12 col-12 d-flex justify-content-center">
+                <img class="overflow-hidden" src="img/design-resources-premium-image (1).png">
+            </div>
+        </div>
+    </div>
+    <div class="container mt50">
+     <h1 class="text-center">What people say</h1>
+     </div>
+    <div class="w90 m-auto">
+        <div class="row gap-4">
+            <div class="w30 borderbox ml10 mt50 div2">
+              <i aria-hidden="true" class="fas fa-quote-left"></i>
+            <p class="fs20">Quam sodales volutpat eget <br>
+            aliquet massa urna risus faucibus <br>
+            turpis malesuada nibh dictum <br>
+            elementum ornare tristique.</p>
+             <div class="d-flex">
+                <img
+                  class="rounded"
+                  src="img/design-resource-avatar-1.jpg"
+                  alt=""
+                />
+                <div class="ms-4">
+                  Julia Keys
+                  <div>UI Designer</div>
+                </div>
+              </div>
+            </div>
+             <div class="w30 ml30 borderbox mt50 div2">
+              <i aria-hidden="true" class="fas fa-quote-left"></i>
+              <p class="fs20">Sed adipiscing adipiscing feugiat <br>
+            platea egestas varius eget enim
+             <br>laoreet pharetra, vulputate vitae <br>
+            elementum bibendum neque</p>
+           <div class="d-flex">
+                <img
+                  class="rounded"
+                  src="img/design-resource-avatar-2.jpg"
+                  alt=""
+                />
+                <div class="ms-4">
+                Richard Durgan
+                  <div>Graphic Designer</div>
+                </div>
+              </div>
+            </div>
+             <div class="w30 ml30 borderbox mt50 div2">
+             <i aria-hidden="true" class="fas fa-quote-left"></i>
+            <p class="fs20">Dui, ultrices odio ipsum morbi sit <br>
+            semper nunc neque fames at elit <br>
+            praesent purus molestie eget</p>
+             <div class="d-flex">
+                <img
+                  class="rounded"
+                  src="img/design-resource-avatar-3.jpg"
+                  alt=""
+                />
+                 <div class="ms-4 ml30">		
+                    Pete Anderson
+                  <div class="testimonial-role">Visual Artist</div>
+                
+              </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="container-fluid mt50 bgct2 h300 
+              align-content-center">
+            <h1 class="text-center">Don’t miss out the latest design</h1>
+            <h1 class="text-center">resources</h1>
+            </div>
+            <div class="col-lg-12 py-lg-5">
+  <div class="container">
+    <div class="row align-items-center">
+
+      
+      <div class="col-lg-3 text-lg-start text-center mb-3 mb-lg-0">
+        <img src="img/site-logo-1.svg" width="50" />
+      </div>
+
+     
+      <div class="col-lg-6 text-center">
+        © 2026 Digital Product Store | Powered by Digital Product Store
+      </div>
+      
+      <div class="col-lg-3 text-lg-end text-center mt-3 mt-lg-0">
+        <i class="fa-brands fa-twitter me-3"></i>
+        <i class="fa-brands fa-square-behance me-3"></i>
+        <i class="fa-brands fa-dribbble"></i>
+      </div>
+
+    </div>
+  </div>
+</div>
+            <!-- <div class="container mt50">             
+              <div class="row">
+              <div class="col-md-3">
+                <img src="img/site-logo-1.svg" alt="">
+              </div>
+              <div class="col-md-5">
+                <p class="text-center">© 2026 Digital Product Store | Powered by Digital Product Store</p>
+              </div>
+              <div class="col-md-3 text-end">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-behance"></i>
+                <i class="fa-solid fa-earth-europe"></i>
+
+              </div>
+            </div>
+
+</div> -->
+</body>
+</html>
